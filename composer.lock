@@ -1,0 +1,133 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "442945d6ebe37a5c65c195523c116741",
+    "content-hash": "9192ce67df1611ce0418e28087a30c1d",
+    "packages": [
+        {
+            "name": "petitchevalroux/configuration-factory",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petitchevalroux/php-configuration-factory.git",
+                "reference": "94dfa809f0739dfbcb0d8996ba22af6afe786428"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petitchevalroux/php-configuration-factory/zipball/94dfa809f0739dfbcb0d8996ba22af6afe786428",
+                "reference": "94dfa809f0739dfbcb0d8996ba22af6afe786428",
+                "shasum": ""
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.5",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ConfigurationFactory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Poulain",
+                    "email": "petitchevalroux@free.fr"
+                }
+            ],
+            "description": "Configuration Factory to load configuration's variables",
+            "time": "2015-09-05 08:55:11"
+        },
+        {
+            "name": "petitchevalroux/di",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petitchevalroux/php-di.git",
+                "reference": "e48c35b80098e73f1e847ddcec53885846ba6b69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petitchevalroux/php-di/zipball/e48c35b80098e73f1e847ddcec53885846ba6b69",
+                "reference": "e48c35b80098e73f1e847ddcec53885846ba6b69",
+                "shasum": ""
+            },
+            "require": {
+                "petitchevalroux/singleton": "0.0.1.*"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.5",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Poulain",
+                    "email": "petitchevalroux@free.fr"
+                }
+            ],
+            "description": "Simple DI for boostraping dependencies based on require file",
+            "time": "2015-09-04 13:39:47"
+        },
+        {
+            "name": "petitchevalroux/singleton",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petitchevalroux/php-singleton.git",
+                "reference": "cdba01b9a09022d79a6f082fb4f17cec6e0463c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petitchevalroux/php-singleton/zipball/cdba01b9a09022d79a6f082fb4f17cec6e0463c9",
+                "reference": "cdba01b9a09022d79a6f082fb4f17cec6e0463c9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "fzaninotto/faker": "~1.5",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Singleton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Poulain",
+                    "email": "petitchevalroux@free.fr"
+                }
+            ],
+            "description": "Implement singleton design pattern",
+            "time": "2015-09-04 12:14:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

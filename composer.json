@@ -1,0 +1,11 @@
+{
+    "require": {
+        "petitchevalroux/configuration-factory": "^0.0.2",
+        "petitchevalroux/di": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TyreStore\\": "src/"
+        }
+    }
+}
